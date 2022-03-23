@@ -2,5 +2,9 @@
 #include "fun.h"
 
 int main() {
-    return 0;
+    int64 a, b, c;
+    a = 4;
+    b = 5;
+    c = power(a, b);
+    return c;
 }
