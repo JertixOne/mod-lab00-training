@@ -2,8 +2,8 @@
 #include "fun.h"
 
 int main() {
-    int a, b;
+  int64_t a,c; uint16_t b;
     a = 2;
     b = 10;
-    power(a, b);
+    c = power(a, b);
 }
