@@ -4,8 +4,7 @@
 #include <iostream>
 
 int64_t power(int64_t x, uint16_t n) {
-   int64 y = 1;
-   for (int i = 1; i < n; i++)
-      y *= x;
+   for (int i = 2; i < n; i++)
+      x *= x;
     return y;
 }
